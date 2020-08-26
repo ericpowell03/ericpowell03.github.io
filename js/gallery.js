@@ -5,7 +5,7 @@ function activateGallery() {
   let captionTitle = caption.querySelector(".title");
   let captionDescription = caption.querySelector(".description");
   // either notation style above works for finding child selectors. Carrots find direct descendents.
-
+  
   thumbnails.forEach(function(thumbnail) {
     thumbnail.addEventListener("click", function () {
       // set clickced image as main image.
