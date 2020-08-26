@@ -15,7 +15,7 @@ function activateGallery() {
 
     thumbnail.addEventListener("click", function () {
       // set clickced image as main image.
-      mainImage.setAttribute("src", thumbnail.dataset.largeVersion);
+      mainImage.setAttribute("src", newImageSrc);
       captionTitle.innerHTML = thumbnail.dataset.title;
       captionDescription.innerHTML = thumbnail.dataset.description;
       mainImage.setAttribute("alt", thumbnail.getAttribute("alt"));
